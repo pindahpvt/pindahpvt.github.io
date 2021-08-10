@@ -1,9 +1,7 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-* {
     margin: 0;
+    margin-top: 10px;
 }
 
 .img-div {
@@ -11,33 +9,99 @@
     width: fit-content;
     height: fit-content;
     margin: auto;
+    /*border: dotted 1px #007ACC;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #007ACC;*/
+    border-radius: 50%;
+    background-color: #f5f5f5;
+}
+
+.glow-pindah {
+    background-color: #007ACC;
+    background: #007ACC;
+    width: 20px;
+    height: 20px;
+    margin-left: -27px;
+    margin-top: -27px;
+    border-radius: 50%;
+    z-index: 4;
+    position: absolute;
+    z-index: 2;
+    /* put .green-box above .dashed-box */
+    /*  opacity: 0.9;*/
 }
 
 .header-div {
     height: auto;
-    width: auto;
-    min-width: 300px;
-    background-color: whitesmoke;
+    width: 80%;
+    min-width: 200px;
+    background-color: #f5f5f5;
     border-radius: 2px;
-    margin: 20px;
+    border: dotted 1px #007ACC;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
 }
 
 .header-div h1 {
     font-size: large;
-    font-weight: 200;
-    color: #007ACC;
+    font-weight: 300px;
+    color: rgb(61, 61, 61);
     text-align: center;
 }
 
-.header-div h2 {
+h2 {
     font-size: medium;
     font-weight: 100;
-    color: gray;
+    color: rgb(14, 14, 14);
     text-align: center;
 }
 
-.header-div p {
+li {
+    list-style: none;
+    word-wrap: normal;
+}
+
+.SDGLIST {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sdg-1-red {
+    background-color: #EA1B2C;
+    width: 100px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    color: #f5f5f5;
+}
+
+.sdg-2-yellow {
+    background-color: #D39F29;
+    width: 100px;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    color: #f5f5f5;
+}
+
+.sdg-3-green {
+    background-color: #279A47;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    color: #f5f5f5;
+}
+
+p {
     font-size: small;
     font-weight: 100;
     color: gray;
