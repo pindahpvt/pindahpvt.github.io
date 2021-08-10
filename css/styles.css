@@ -8,7 +8,9 @@
     position: sticky;
     position: -webkit-sticky;
     width: 100%;
-    background-color: #007ACC;
+    background-color: #f5f5f5;
+    border: solid 1px #cdcdcd;
+    border-width: 0px 0px 1px 0px;
     padding: 5px 0px 5px 0px;
     top: 0px;
     margin-top: -20px;
@@ -39,13 +41,12 @@
     width: fit-content;
     height: fit-content;
     margin: auto;
-    /*border: dotted 1px #007ACC;
-    border-style: dotted;
+    border: solid 1px #cdcdcd;
+    border-style: solid;
     border-width: 1px;
-    border-color: #007ACC;*/
+    border-color: #cdcdcd;
     border-radius: 50%;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 2px #8193b9;
+    background-color: #f5f5f5;
 }
 
 .glow-pindah {
