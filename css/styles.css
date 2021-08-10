@@ -28,6 +28,12 @@
     height: 30px;
 }
 
+.options {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
 .img-div {
     padding: 10px;
     width: fit-content;
