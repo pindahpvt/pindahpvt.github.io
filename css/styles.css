@@ -148,6 +148,7 @@ li {
     color: white;
     font-weight: 400;
     font-size: 15px;
+    width: fit-content;
 }
 
 .product-div {
@@ -158,6 +159,18 @@ li {
 
 .product-img {
     height: 100px;
+}
+
+.image-container {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.button-container {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
 }
 
 p {
