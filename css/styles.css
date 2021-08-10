@@ -8,7 +8,7 @@
     position: sticky;
     position: -webkit-sticky;
     width: 100%;
-    background-color: #000a11;
+    background-color: #007ACC;
     padding: 5px 0px 5px 0px;
     top: 0px;
     margin-top: -20px;
@@ -38,7 +38,8 @@
     border-width: 1px;
     border-color: #007ACC;*/
     border-radius: 50%;
-    background-color: transparent;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #8193b9;
 }
 
 .glow-pindah {
