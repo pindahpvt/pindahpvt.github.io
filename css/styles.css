@@ -4,6 +4,10 @@
     margin-top: 10px;
 }
 
+body {
+    width: 100%;
+}
+
 .heading-div {
     position: sticky;
     position: -webkit-sticky;
@@ -49,38 +53,31 @@
     background-color: #f5f5f5;
 }
 
-.glow-pindah {
-    background-color: #007ACC;
-    background: #007ACC;
-    width: 20px;
-    height: 20px;
-    margin-left: -27px;
-    margin-top: -27px;
-    border-radius: 50%;
-    z-index: 4;
-    position: absolute;
-    z-index: 2;
-    /* put .green-box above .dashed-box */
-    /*  opacity: 0.9;*/
-}
-
 .header-div {
-    height: auto;
-    width: 80%;
+    height: 380px;
+    width: 70%;
     min-width: 200px;
     background-color: #f5f5f5;
     border-radius: 2px;
     border: dotted 0px #007ACC;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 20px;
+    background-image: url("/images/background__.jpg");
 }
 
 .header-div h1 {
-    font-size: large;
+    font-size: x-large;
     font-weight: 300px;
-    color: rgb(61, 61, 61);
+    color: white;
+    text-align: center;
+}
+
+.header-div p {
+    font-size: medium;
+    font-weight: 200px;
+    color: white;
     text-align: center;
 }
 
@@ -157,12 +154,27 @@ li {
     font-weight: 400;
     font-size: 15px;
     width: fit-content;
+    cursor: pointer;
+}
+
+.product-button:hover {
+    background-color: blueviolet;
+    transition: 3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .product-div {
     border: solid 1px #cdcdcd;
     padding: 10px;
     border-radius: 5px;
+}
+
+.product-div-first {
+    border: solid 1px #cdcdcd;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 0px;
+    margin-top: -40px;
+    border-width: 1px 0px 0px 0px;
 }
 
 .product-img {
@@ -211,4 +223,28 @@ footer p {
     font-weight: 100;
     color: white;
     text-align: center;
+}
+
+@media (max-width:960px) {
+    .product-div-first {
+        border: solid 1px #cdcdcd;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 20px;
+        border-width: 1px;
+    }
+    .header-div {
+        height: 380px;
+        width: 100%;
+        min-width: 200px;
+        background-color: #f5f5f5;
+        border-radius: 2px;
+        border: dotted 0px #007ACC;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 20px;
+        background-image: url("/images/background__.jpg");
+    }
 }
